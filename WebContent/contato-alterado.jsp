@@ -9,6 +9,8 @@
 </head>
 <body>
 	<c:import url="header.jsp" /> 
-    Contato ${param.nome} adicionado com sucesso
+    Contato ${param.nome} alterado com sucesso.
+    
+    <a href="lista-contatos.jsp" >Voltar</a>
   </body>
 </html>
